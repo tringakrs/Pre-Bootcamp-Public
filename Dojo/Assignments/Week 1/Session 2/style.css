@@ -1,0 +1,31 @@
+*{
+    margin: 8px;
+}
+#firstheader{
+    background-color: black;
+    color: aqua;
+    font-family: cursive;
+    padding-left: 10px;
+    height: 70px;
+    font-size: 45px;
+}
+#secondheader{
+    background-color: blueviolet;
+    color: aqua;
+    text-align: center;
+    font-family: monospace;
+    font-weight: lighter;
+    height: 50px;
+    font-size: 35px;
+}
+#thirdheader{
+    background-color: cornflowerblue;
+    color: darkblue;
+    text-align: right;
+    text-decoration: underline;
+    font-family: cursive;
+    font-weight: lighter;
+    padding-right: 10px;
+    height: 45px;
+    font-size: 25px;
+}
