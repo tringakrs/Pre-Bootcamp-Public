@@ -1,0 +1,32 @@
+img.octocat {
+    height: 200px;
+}
+#container{
+    position: absolute;
+    left: 25%;
+    width: 750px;
+}
+#first-row{
+    background-color: deepskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    justify-content: space-around;
+}
+#second-row{
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+#third-row{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    justify-content: space-around;
+}
