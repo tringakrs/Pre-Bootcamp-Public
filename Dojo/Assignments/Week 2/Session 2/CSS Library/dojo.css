@@ -1,0 +1,102 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  body{
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    background-color: steelblue;
+    color: #ffffff;
+    height: 80px;
+    width: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.nav a{
+    text-decoration: none;
+}
+.nav-title{
+    margin-left: 20px;
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    font-size: 17px;
+    box-shadow: 5px 5px #000000;
+}
+#search button{
+    border: 1px solid aqua;
+    background-color: white;
+    color: aqua;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    width: 100pt;
+    height: 20pt;
+    border-radius: 20px;
+}
+
+div > #search, #plus, #createacc{
+    margin: 15px;
+}
+.row{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.col{
+    flex:1;
+    padding: 10px;
+    margin: 10px;
+    background-color: SkyBlue;
+}
+.col-2{
+    flex:3;
+    padding: 10px;
+    margin: 10px;
+    background-color: SkyBlue;
+}
+.col-3{
+    flex:8;
+    padding: 10px;
+    margin: 10px;
+    background-color: SkyBlue;
+}
