@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.first{
+    display: flex;
+    width: 81%;
+    height: 100%;
+}
+.main{
+    width: 80%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+input, button{
+    border: 2px solid black;
+}
+input{
+    width:35%;
+}
+.nav button{
+    background-color: blue;
+    color: white;
+    width: 90px;
+    height: 25px;
+    box-shadow: 2px 3px black ;
+    font-weight: bold;
+    
+}
+.majt-nalt{
+    border: 2px solid black;
+    width: 90%;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    height: 50%;
+    font-size: 30px;
+}
+.majt-nalt-majt {
+    width: 200px;
+}
+.majt-nalt button,
+.majt-ner button{
+    background-color: yellow;
+    width: 110px;
+    height: 35px;
+    margin-top: 15px;
+    box-shadow: 2px 3px ;
+    font-weight: bold;
+}
+.majt-nalt-djatht{
+    display: flex;
+    align-items: center;
+    width:60%;
+    padding-left: 30px;
+}
+
+.majt-nalt-majt{}
+
+.majt-ner{
+    border: 2px solid black;
+    width: 90%;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    height: 50%;
+    font-size: 30px;
+}
+.majt-ner-majt {
+    width: 200px;
+}
+.majt-ner-djatht{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+.djatht{
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 200px;
+    width: 30%;
+    padding: 10px;
+    font-size: 40px;
+}
+.djatht button{
+    margin-top: 50px;
+    background-color: green;
+    width: 100%;
+    height: 40px;
+    box-shadow: 2px 3px ;
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
+}
