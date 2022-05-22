@@ -1,0 +1,33 @@
+*{
+    margin:0;
+}
+.container{
+    width:100%;
+    margin:5% 10%;
+}
+.box{
+    width:35%;
+    border:2px solid black;
+    height:110px;
+    padding:10px;
+}
+.card-header{
+    display:flex;
+    align-items:center;
+    height:40%;
+    justify-content:space-between;
+}
+.card-header-djatht{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:140px;
+}
+.card-header-djatht button{
+    background-color: yellow;
+    width:60px;
+    box-shadow: 3px 3px black;
+}
+.card-body{
+    padding-top: 15px;
+}
