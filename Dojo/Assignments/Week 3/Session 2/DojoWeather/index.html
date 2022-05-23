@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="nav-header">
+                <h1>DojoWeather</h1>
+            </div>
+            <div class="nav-elements">
+                <p onclick="displayText()"><a href="#">Burbank</a></p>
+                <p onclick="displayText()"><a href="#">Chicago</a></p>
+                <p onclick="displayText()"><a href="#">Dallas</a></p>
+            </div>
+        </div>
+        <main>
+            <div class="subtitle-line">
+                <h2>San Jose</h2>
+                <form>
+                    <label>Show temperature in </label>
+                    <select name="temperature-scale" onchange="convert(this)">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select>
+                </form>
+            </div>
+            <div class="columns">
+                <div class="col-1">
+                    <h1>Today</h1>
+                    <img src="assets/some_rain.png">
+                    <p>some rain</p>
+                    <div class="paragrafet">
+                        <span><p class="p1"  id="temp1">24</p></span>
+                    <span><p class="p2" id="temp2">18</p></span>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h1>Tomorrow</h1>
+                    <img src="assets/some_sun.png">
+                    <p>some sun</p>
+                    <div class="paragrafet">
+                    <span><p class="p1" id="temp3">27</p></span>
+                <span><p class="p2" id="temp4">19</p></span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <h1>Friday</h1>
+                    <img src="assets/some_clouds.png">
+                    <p>some clouds</p>
+                    <div class="paragrafet">
+                    <span><p class="p1" id="temp5">21</p></span>
+                <span><p class="p2" id="temp6">16</p></span>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <h1>Saturday</h1>
+                    <img src="assets/some_sun.png">
+                    <p>some sun</p>
+                    <div class="paragrafet">
+                        <p class="p1" id="temp7">26</p>
+                        <p class="p2" id="temp8">21</p>
+                    </div>
+                </div>
+            </div>
+            <div  id="removedButton" class="fixed-pos">
+                <div class="cookie-img">
+                    <img src="assets/cookie.png" alt="cookie">
+                </div>
+                <div class="body">
+                    <h1>Stop! Cookie time</h1>
+                    <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic.<a href="#">Read more...</a></p>
+                </div>
+                <div class="button">
+                    <button onclick="removeButton()">I Accept</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
