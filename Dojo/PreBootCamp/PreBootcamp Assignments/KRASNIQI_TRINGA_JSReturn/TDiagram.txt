@@ -1,0 +1,73 @@
+//Code Snippet 1
+
+	var	|	val	
+		|
+
+//Code Snippet 2
+
+	var	|	val	
+result		|15
+
+//Code Snippet 3
+
+	var	|	val	
+num		|3
+result		|18
+
+//Code Snippet 4
+
+	var	|	val	
+num		|15
+num2		|10
+result		|10
+
+//Code Snippet 5
+
+	var	|	val	
+num		|15
+num2		|10, 20
+result		|20
+
+//Code Snippet 6
+
+	var	|	val	
+num		|3, 5
+y		|6, 10
+result		|16
+
+//Code Snippet 7
+
+	var	|	val	
+num1		|2, 3
+num2		|3, 5
+
+//Code Snippet 8
+
+	var	|	val	
+num1		|2, 3
+num2		|3, 5
+
+//Code Snippet 9
+
+	var	|	val	
+num1		|2, 3
+num2		|3, 5
+sum		|5, 8
+result		|13
+
+//Code Snippet 10
+
+	var	|	val	
+num1		|2, 3, 2, 2, 2
+num2		|3, 1, 1, 3
+sum		|5, 3, 6, 3, 5
+result		|19
+
+
+
+
+
+
+
+
+
